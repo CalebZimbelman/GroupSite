@@ -1,0 +1,189 @@
+/*#header {
+  background-color: yellow;
+  height: 150px;
+  width: 100%;
+}
+.Thing {
+  width: 100%;
+  height: 200px;
+  background-color: blue;
+
+}
+#test {
+  margin-left: 70%;
+  height: auto;
+  width: 100%;
+  background-color: grey;
+  f
+
+}
+#Left {
+  margin-right: 70;
+  height: auto;
+  width: 50%;
+  background-color: darkgrey;
+}
+*/
+/*Sepperation again*/
+#nav {
+  margin: 0 auto;
+  float: left;
+  background-color: grey;
+}
+nav {
+  margin-top: 1.4em;
+  display: table; /* makes it display as a table*/
+  width: 100%;
+  height: 1em;
+  border: none;
+}
+nav ul {
+  /*display: table-row; /* makes the row expand out across the whole width */
+  list-style: none;
+}
+nav li {
+  /*display: table-cell; /* makes the tables/links arange themselves horizontally*/
+  margin: 0;
+  text-align: left;
+}
+nav li a {
+  display: block;
+  padding: .75em;
+  text-decoration: none; /* takes out the underline and other things for links */
+  font-weight: bold;
+  font-family: 'Lobster', verdana;
+  font-size: 1em;
+  color: #000;
+}
+nav li a:hover {
+  background-color: green;
+  /*display: block;*/
+  border: groove;
+  /*border-radius: 100% 50%; /* gives circle shape to the hover button */
+}
+body {
+  background-color: darkgrey;
+}
+#container {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+/* ADD "," WHEN YOU HAVE MORE THAN ONE CLASS OR ID */
+.top1, .top2, .top3, .top4 {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 3%
+  /*Index 2 start*/
+}
+.Parenttinkering{
+  float: left;
+  margin-left: 33%;
+}
+.blue {
+  border: 5px;
+  border-style: ridge;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  float: right;
+}
+.purple {
+  border: 5px;
+  border-style: inset;
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+  clear: left;
+}
+.orange {
+  border: 5px;
+  border-style: double;
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  float: inherit;
+}
+.green {
+  border: 5px;
+  border-style: outset;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  float: right;
+}
+#image {
+  margin-left: 45px;
+  margin-top: 5px;
+}
+.header {
+  margin-left: 40px;
+}
+.paragraph {
+  margin-left: 16%;
+}
+.iframe {
+  margin-left: 7px;
+  margin-top: 7px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.Maincontainer {
+  margin: 0 10%;
+  background-color: white;
+}
+#Header {
+  margin: 0 auto;
+  text-align: center;
+}
+.Under {
+  margin: 0 auto;
+  padding: 0 5px;
+  text-align: center;
+}
+.Image2 {
+  margin-left: 2%;
+  padding-top: 3%;
+}
+#Image {
+  background-color: green;
+  margin: 0 22%;
+}
+.Undertext {
+  margin: 0 auto;
+  text-align: center;
+}
+.BottomLinks {
+  margin: 0 20%;
+  background-color: white;
+}
+.iframe1 {
+  float: right;
+}
+.iframe2 {
+  clear: left;
+}
+.iframe3 {
+  margin: 0 12.5%;
+}
+.iframe4 {
+  float: right;
+}
+.iframe5 {
+  clear: left;
+}
+.table {
+  text-align: center;
+  background-color: lightgrey;
+  border: inset;
+}
+.form {
+  background-color: grey;
+  float: right;
+}
+.form2 {
+  float: left;
+}
